@@ -1,7 +1,5 @@
 package taskexecutor;
 
-import java.util.concurrent.atomic.AtomicLong;
-
 public class MultiThreadTaskExecutor extends ATaskExecutor {
 	@Override
 	public long executeTask(int repetitions) {
